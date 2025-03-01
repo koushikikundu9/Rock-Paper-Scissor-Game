@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(14, 12, 12);
+    color: white;
+    font-family: Arial, Helvetica,sans-serif;               
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 10px;
+}
+.move {
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    border:5px solid black;
+    border-radius: 70px;
+
+}
+.big {
+    height: 120px;
+    width: 120px;
+}
+.rock, .paper, .scissor {
+    border-radius: 60px;
+    margin: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.rbutton {
+    
+    border: none;
+    background-color: wheat;
+    color: black;
+    padding: 10px;
+    padding: 5px 15px;
+    font-family: 'Arial';
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 20px 20px;
+}
+.bigr {
+    background-color: rgb(233, 196, 128);
+    font-size: 17px;
+}
+.score, .sb , .moves, .result {
+    margin: 10px 20px;
+    font-size: 20px;
+}
+.sb {
+    color: red;
+}
+.icon {
+    height: 30px;
+    border-radius: 60px;
+    margin: auto;
+}
