@@ -44,33 +44,33 @@ function update(move){
             re='You Win';
         } else if (cm=== 'rock' && move === 'scissor') {
             score.loss+=1;
-            re='You Loss';
+            re='You Lose';
         } else if (cm=== 'paper' && move === 'rock') {
             score.loss+=1;
-            re='You Loss';
+            re='You Lose';
         } else if (cm=== 'paper' && move === 'scissor') {
             score.win+=1;
             re='You Win';
         } else if (cm=== 'scissor' && move === 'paper') {
             score.loss+=1;
-            re='You Loss';
+            re='You Lose';
         } else if (cm=== 'scissor' && move === 'rock') {
             score.win+=1;
             re='You Win';
     }
    }
     const s=document.querySelector('.score');
-    s.innerHTML= `Win: ${score.win}  Loss: ${score.loss}  Tie: ${score.tie}`;
+    s.innerHTML= `Win: ${score.win}  Lose: ${score.loss}  Tie: ${score.tie}`;
     document.querySelector('.result').innerHTML=re;
 }
 const s=document.querySelector('.score');
-s.innerHTML= `Win: ${score.win}  Loss: ${score.loss}  Tie: ${score.tie}`;
+s.innerHTML= `Win: ${score.win}  Lose: ${score.loss}  Tie: ${score.tie}`;
 function reset() {
     score.win=0;
     score.loss=0;
     score.tie=0;
     const s=document.querySelector('.score');
-    s.innerHTML= `Win: ${score.win}  Loss: ${score.loss}  Tie: ${score.tie}`;
+    s.innerHTML= `Win: ${score.win}  Lose: ${score.loss}  Tie: ${score.tie}`;
     document.querySelector('.result').innerHTML='';
     document.querySelector('.moves').innerHTML='';
 }
