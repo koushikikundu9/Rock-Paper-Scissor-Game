@@ -6,15 +6,22 @@
     </head>
     <body>
         <h1>Rock Paper Scissor Game</h1>
-        <button class="rock" onclick="update('rock')" onmouseover="mo('.play1')" onmouseleave="ml('.play1')">
-            <img src="images/rock.webp" class="move play1" id="rock">
-        </button>
-        <button class="paper" onclick="update('paper')" onmouseover="mo('.play2')" onmouseleave="ml('.play2')">
-            <img src="images/paper.webp" class="move play2">
-        </button>
-        <button class="scissor" onclick="update('scissor')" onmouseover="mo('.play3')" onmouseleave="ml('.play3')">
-            <img src="images/scissor.png" class="move play3">
-        </button>
+        <div class="centre">
+            <div>
+                <button class="rock" onclick="update('rock')" onmouseover="mo('.play1')" onmouseleave="ml('.play1')">
+                    <img src="images/rock.webp" class="move play1" id="rock">
+                </button>
+            </div>
+            <div>
+                <button class="paper" onclick="update('paper')" onmouseover="mo('.play2')" onmouseleave="ml('.play2')">
+                    <img src="images/paper.webp" class="move play2">
+                </button>
+            </div>
+            <div>
+                <button class="scissor" onclick="update('scissor')" onmouseover="mo('.play3')" onmouseleave="ml('.play3')">
+                    <img src="images/scissor.png" class="move play3">
+                </button>
+            </div>
         <p class="result"></p>
         <p class="moves"></p>
         <p class="sb">Score Board:</p>
